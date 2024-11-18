@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,12 +46,12 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Home<br></a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown"><a href="services.html"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a href="#">Deep Dropdown 1</a></li>
                   <li><a href="#">Deep Dropdown 2</a></li>
@@ -62,13 +64,17 @@
               <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
             </ul>
-          </li> -->
+          </li>
           <li><a href="#">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <a class="btn-getstarted" href="index.html">Get Started</a>
+      <div>
+        <a class="social-icons" href="#"><i class="bi bi-linkedin"></i></a>
+        <a class="social-icons" href="#"><i class="bi bi-twitter-x"></i></a>
+        <a class="social-icons" href="#"><i class="bi bi-instagram"></i></a>
+        <a class="social-icons" href="#"><i class="bi bi-facebook"></i></a>
+      </div>
 
     </div>
   </header>
@@ -78,17 +84,23 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <img src="assets/img/hero-bg-1.jpg" alt="" data-aos="fade-in">
 
       <div class="container">
 
         <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-xl-8 col-lg-8">
+          <div class="col-xl-10 col-lg-10">
             <h2>Your Trusted Partner for Comprehensive Business Solutions<span>.</span></h2>
-            <!-- <p>Discover how we can partner with you to strategize and execute impactful solutions tailored to your business needs</p> -->
-            
           </div>
-          <p>We specialize in transforming businesses across diverse industries such as Healthcare, Financial Services, Technology, E-commerce & Retail, Telecommunications, Manufacturing, Accounting, and IT Solutions. With a focus on innovation, efficiency, and scalability, we empower companies to focus on growth while we handle their critical business functions.</p>
+          <p>
+            We specialize in transforming businesses across diverse industries such as <span>Software & IT
+              Services</span> , <span> Technology Solutions</span>, <span> E-commerce & Retail</span> , <span>
+              Healthcare</span> , <span> Accounting</span> and <span>Financial Services</span>. With a focus on
+            innovation, efficiency, and scalability, we empower companies to focus on growth while we handle their
+            critical business functions.
+          </p>
+          <div class="mt-4"><a class="view-btn" href="#">View More</a></div>
+          
         </div>
 
         <!-- <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -141,69 +153,84 @@
 
         <div class="row gy-4">
           <div class="col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="assets/img/about.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 order-2 order-lg-1 content mt-5">
             <h3>Every other day</h3>
             <p class="fst-italic">
               We believe that growing together is the only sustainable way to keep growing.
             </p>
-            <ul class="mt-4">
-              <li class="mt-3"><i class="bi bi-check2-all"></i> <span class="fw-bold">Changing the world through personalized digital experiences.</span></li>
-              <li class="mt-3"><i class="bi bi-check2-all"></i> <span class="fw-bold">Discover how we’re helping businesses worldwide.</span></li>
-              <li class="mt-3"><i class="bi bi-check2-all"></i> <span class="fw-bold">We seek diverse ideas, perspectives, and experiences.</span></li>
-            </ul>
-            <p class="mt-5">
-              You see brands popping up offering digital marketing, software development, 
-              back-offce/front-offce services and more without any concrete plan in mind. After meeting success with our internal projects – we decided to offer the same flavor of success to businesses across the globe. 
-              This is how Mac Care was born.
+            <!-- <ul class="mt-4">
+              <li class="mt-3"><i class="bi bi-check2-all"></i> <span class="fw-bold">Changing the world through
+                  personalized digital experiences.</span></li>
+              <li class="mt-3"><i class="bi bi-check2-all"></i> <span class="fw-bold">Discover how we’re helping
+                  businesses worldwide.</span></li>
+              <li class="mt-3"><i class="bi bi-check2-all"></i> <span class="fw-bold">We seek diverse ideas,
+                  perspectives, and experiences.</span></li>
+            </ul> -->
+            <p class="mt-2">
+              <span class="fw-bold">Tailored and Scalable Solutions:</span> We specialize in delivering customized,
+              scalable, and high-quality
+              services designed to meet the unique needs of businesses worldwide, ensuring they stay ahead in today’s
+              competitive landscape.<br><br>
+
+              <span class="fw-bold">Expertise in Optimization:</span> Since our inception, we have been empowering
+              organizations to streamline their
+              operations, enhance efficiency, and achieve their strategic goals through our expertise in BPO services
+              and IT solutions.<br><br>
+
+              <span class="fw-bold">Global Reach and Commitment to Excellence:</span> With a global presence and a
+              relentless focus on quality, we
+              are committed to being a trusted partner for businesses, driving growth and innovation every step of the
+              way.<br><br>
             </p>
           </div>
         </div>
 
       </div>
 
-    </section><!-- /About Section -->
+    </section>
 
-        <!-- Features Section -->
-        <section id="features" class="features section">
+    <section id="features" class="features section">
 
-          <div class="container">
-    
-            <div class="row gy-4">
-              <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/features-bg.jpg" alt=""></div>
+      <div class="container">
 
-              <div  class="col-lg-6 mt-lg-5 ps-lg-4">    
-                <div class="features-item d-flex ps-0 ps-lg-3 pt-4" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bi bi-emoji-smile flex-shrink-0"></i>
-                  <div>
-                    <h4>Vision</h4>
-                    <p>Become the leading software development company in every region</p>
-                  </div>
-                </div><!-- End Features Item-->
-    
-                <div class="features-item d-flex mt-5 ps-0 ps-lg-3 pt-4" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bi bi-bar-chart-line flex-shrink-0"></i>
-                  <div>
-                    <h4>Mission</h4>
-                    <p>To be the most preferred software development company worldwide</p>
-                  </div>
-                </div><!-- End Features Item-->
-    
-                <div class="features-item d-flex mt-5 ps-0 ps-lg-3 pt-4" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bi bi-award flex-shrink-0"></i>
-                  <div>
-                    <h4>Values</h4>
-                    <p>We are Lighthouse offering guidance on how we conduct our business.</p>
-                  </div>
-                </div><!-- End Features Item-->
-    
+        <div class="row gy-4">
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img
+              src="assets/img/about-2.jpg" alt=""></div>
+
+          <div class="col-lg-6 mt-lg-5 ps-lg-4">
+            <div class="features-item d-flex ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-emoji-smile flex-shrink-0"></i>
+              <div>
+                <h4>Vision</h4>
+                <p>To be the most trusted global partner for seamless outsourcing and operational excellence.</p>
               </div>
-            </div>
-    
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3 pt-4" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-bar-chart-line flex-shrink-0"></i>
+              <div>
+                <h4>Mission</h4>
+                <p>To empower businesses by delivering reliable, timely, and tailored outsourcing solutions.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3 pt-4" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-award flex-shrink-0"></i>
+              <div>
+                <h4>Values</h4>
+                <p>We prioritize reliability, timeliness, global connectivity, client focus, and excellence in every
+                  solution we deliver.</p>
+              </div>
+            </div><!-- End Features Item-->
+
           </div>
-    
-        </section><!-- /Features Section -->
+        </div>
+        <div class="mt-5 text-center"><a class="view-btn-dark" href="#">Read More</a></div>
+      </div>
+
+    </section><!-- /About Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section">
@@ -221,49 +248,49 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-activity"></i>
+                <i class="bi bi-gear-wide-connected"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="services.html" class="stretched-link">
                 <h3>Technology Solutions</h3>
               </a>
-              <p>IT Support & Maintenance, Customer Service Solutions, Help Desk Operations.</p>
+              <p>IT Support & Maintenance, Customer Service Solutions and Help Desk Operations.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-broadcast"></i>
+                <i class="bi bi-code-square"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="services.html" class="stretched-link">
                 <h3>Software & IT Services</h3>
               </a>
-              <p>Custom Software Development, Web & App Development, Digital Marketing.</p>
+              <p>Custom Software Development, Web & App Development and Digital Marketing.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-easel"></i>
+                <i class="bi bi-shop"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="services.html" class="stretched-link">
                 <h3>E-commerce & Retail</h3>
               </a>
-              <p>Customer Support, Order Processing, Inventory Management, Back-Office Operations.</p>
+              <p>Store Management, Customer Support, Inventory Management and Back-Office Operations.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
+                <i class="bi bi-person-workspace"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="services.html" class="stretched-link">
                 <h3>Accounting</h3>
               </a>
-              <p>Accounts Management, Internal Audits, Tax Preparation & Filing.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <p>Accounts Managements, Internal Audits, Tax Preparation and Filing.</p>
+              <a href="services.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -272,46 +299,46 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="services.html" class="stretched-link">
                 <h3>Financial Services</h3>
               </a>
-              <p>Customer Support, Data Entry, Claims Processing, Accounting & Payroll Services.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <p>Customer Support, Data Entry, Claims Processing, Accounting and Payroll Services.</p>
+              <a href="services.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
+                <i class="bi bi-heart-pulse"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="services.html" class="stretched-link">
                 <h3>Healthcare</h3>
               </a>
-              <p>Medical Billing, Claims Processing, Patient Records Management, Telemedicine Support.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <p>Medical Billing, Claims Processing, Patient Records Management and Telemedicine Support.</p>
+              <a href="services.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
         </div>
-
+        <div class="mt-3 text-center"><a class="view-btn-dark" href="#">View More</a></div>
       </div>
 
     </section><!-- /Services Section -->
 
-        <!-- Clients Section -->
-        <section id="clients" class="clients section">
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
 
-          <!-- Section Title -->
-          <div class="container section-title text-center" data-aos="fade-up">
-            <h2>OUR JOURNEY</h2>
-            <p>Who we work with</p>
-          </div><!-- End Section Title -->
-    
-          <div class="container" data-aos="fade-up" data-aos-delay="100">
-    
-            <div class="swiper init-swiper">
-              <script type="application/json" class="swiper-config">
+      <!-- Section Title -->
+      <div class="container section-title text-center" data-aos="fade-up">
+        <h2>OUR JOURNEY</h2>
+        <p>Who we work with</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
                 {
                   "loop": true,
                   "speed": 600,
@@ -344,35 +371,37 @@
                   }
                 }
               </script>
-              <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-    
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
           </div>
-    
-        </section><!-- /Clients Section -->
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section dark-background">
 
-      <img src="assets/img/cta-bg.jpg" alt="">
+      <img src="assets/img/cta-bg-0.jpg" alt="">
 
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-10">
             <div class="text-center">
               <h3>Call To Action</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <a class="cta-btn" href="#">Call To Action</a>
+              <p>Partner with us to streamline your operations and focus on what truly matters—growth and innovation.
+                From tailored outsourcing solutions to seamless IT services, we are here to help you achieve efficiency
+                and success.</p>
+              <a class="cta-btn" href="#">Contact Us</a>
             </div>
           </div>
         </div>
@@ -451,88 +480,6 @@
     </section> -->
     <!-- /Stats Section -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Contact Us</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div><!-- End Google Maps -->
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
   </main>
 
   <footer id="footer" class="footer dark-background">
@@ -545,9 +492,9 @@
               <span class="sitename">LOGO</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+              <p>DHA Ph-2</p>
+              <p>Karachi, Pakistan</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+92 300 8976773</span></p>
               <p><strong>Email:</strong> <span>info@example.com</span></p>
             </div>
             <div class="social-links d-flex mt-4">
@@ -565,7 +512,7 @@
               <li><i class="bi bi-chevron-right"></i> <a href="#"> About us</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#"> Services</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#"> Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Contact us</a></li>
             </ul>
           </div>
 
@@ -583,8 +530,9 @@
           <div class="col-lg-4 col-md-12 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-            <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <form action="#" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" placeholder="Your Email Address" name="email"><input type="submit" value="Subscribe">
+              </div>
               <div class="loading">Loading</div>
               <div class="error-message"></div>
               <div class="sent-message">Your subscription request has been sent. Thank you!</div>
@@ -597,13 +545,10 @@
 
     <div class="copyright">
       <div class="container text-center">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">LOGO</strong> <span>All Rights Reserved</span></p>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          
+          Designed by <a href="#">Company</a>
         </div>
       </div>
     </div>
@@ -611,14 +556,14 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
