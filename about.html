@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,27 +32,89 @@
 
 <body class="portfolio-details-page">
 
-  <header id="header" class="header d-flex align-items-center position-relative">
+  <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">GP</h1>
+        <h1 class="sitename">LOGO</h1>
         <span>.</span>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html" class="active">Home<br></a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown"><a href="services.html"><span>Services</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li class="dropdown"><a href="services.html"><span>Technology Solutions</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul></span>
+                  <li><a href="services.html">IT Support</a></li>
+                  <li><a href="services.html">Customer Service</a></li>
+                  <li><a href="services.html">Help Desk Operations</a></li>
+                  <li><a href="services.html">Maintenance</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="services.html"><span>Software & IT Services</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul></span>
+                  <li><a href="services.html">Software Development</a></li>
+                  <li><a href="services.html">Web Development</a></li>
+                  <li><a href="services.html">App Development</a></li>
+                  <li><a href="services.html">Digital Marketing</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="services.html"><span>E-commerce & Retail</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul style="left: -97%;"></span>
+                  <li><a href="services.html">Store Management</a></li>
+                  <li><a href="services.html">Customer Support</a></li>
+                  <li><a href="services.html">Inventory Management</a></li>
+                  <li><a href="services.html">Back-Office Operations</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="services.html"><span>Accounting Services</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul style="left: -99%;"></span>
+                  <li><a href="services.html">Accounts Managements</a></li>
+                  <li><a href="services.html">Internal Audits</a></li>
+                  <li><a href="services.html">Tax Preparation</a></li>
+                  <li><a href="services.html">Filing</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="services.html"><span>Financial Services</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul></span> 
+                  <li><a href="services.html">Customer Support</a></li>
+                  <li><a href="services.html">Data Entry</a></li>
+                  <li><a href="services.html">Claims Processing</a></li>
+                  <li><a href="services.html">Payroll Services</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="services.html"><span>Healthcare</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul style="left: -118%;"></span>
+                  <li><a href="services.html">Medical Billing</a></li>
+                  <li><a href="services.html">Claims Processing</a></li>
+                  <li><a href="services.html">Telemedicine Support</a></li>
+                  <li><a href="services.html">Patient Records Management</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+      <div class="d-none d-lg-block">
+        <a class="social-icons" href="#"><i class="bi bi-linkedin"></i></a>
+        <a class="social-icons" href="#"><i class="bi bi-twitter-x"></i></a>
+        <a class="social-icons" href="#"><i class="bi bi-instagram"></i></a>
+        <a class="social-icons" href="#"><i class="bi bi-facebook"></i></a>
+      </div>
 
     </div>
   </header>
@@ -59,12 +123,17 @@
 
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
-      <div class="heading">
+      <div class="heading" style="padding-bottom: 40px;">
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>About Us</h1>
-              <p class="mb-0">We specialize in transforming businesses across diverse industries such as Healthcare, Financial Services, Technology, E-commerce & Retail, Accounting, and IT Solutions. With a focus on innovation, efficiency, and scalability, we empower companies to focus on growth while we handle their critical business functions.</p>
+              <h1>How We Work</h1>
+              <p class="mb-4 mt-3">We specialize in transforming businesses across diverse industries such as Software & IT Services , Technology Solutions, E-commerce & Retail , Healthcare , Accounting and Financial Services. With a focus on innovation, efficiency, and scalability, we empower companies to focus on growth while we handle their critical business functions.</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="200" height="42" fill="#ffc451"
+                class="bi bi-arrow-down animate-bounce" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+              </svg>
             </div>
           </div>
         </div>
@@ -73,84 +142,121 @@
         <div class="container">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">About Us</li>
+            <li class="current">About</li>
           </ol>
         </div>
       </nav>
     </div><!-- End Page Title -->
 
-    <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
+    <!-- About Section -->
+    <section id="about" class="about section mt-5">
+
+      <!-- Section Title -->
+      <div class="container section-title text-center" data-aos="fade-up">
+        <h2>About us</h2>
+        <p>Know Our Insights</p>
+      </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
-
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                }
-              </script>
-
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
+          <div class="col-lg-6 order-1 order-lg-2" style="margin-top: 4rem;">
+            <img src="assets/img/about/about-1.jpg" class="img-fluid" alt="about image">
           </div>
+          <div class="col-lg-6 order-2 order-lg-1 content mt-4">
+            <h3 class="text-center" style="letter-spacing: 2px;">Our Story</h3>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>What We Are?</h3>
-              <ul>
-                <li><strong>Mission</strong>: To be the world’s most trusted outsourcing partner, empowering businesses to achieve unprecedented growth by seamlessly managing their operations, fostering innovation, and enabling them to focus on their core goals.</li><br>
-                <li><strong>Vision</strong>: ASU Company</li>
-                <li><strong>Core Values</strong>: 01 March, 2020</li>
-                <li><strong>Our Story</strong>: www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
+            <!-- <ul class="mt-4">
+              <li class="mt-3"><i class="bi bi-check2-all"></i> <span class="fw-bold">Changing the world through
+                  personalized digital experiences.</span></li>
+              <li class="mt-3"><i class="bi bi-check2-all"></i> <span class="fw-bold">Discover how we’re helping
+                  businesses worldwide.</span></li>
+              <li class="mt-3"><i class="bi bi-check2-all"></i> <span class="fw-bold">We seek diverse ideas,
+                  perspectives, and experiences.</span></li>
+            </ul> -->
+            <p class="mt-4">
+              Every day, new companies emerge offering digital marketing, software development, and back-
+              office/front-office services, often without a clear plan or long-term vision. Partnering with such
+              companies can lead to unmet expectations and disrupted business operations. This needed to
+              change—and we stepped up to lead that change.<br><br>
+              After achieving significant success with our internal projects, we realized the value of extending
+              that success to businesses worldwide. This is how [Your Company Name] came to life—a brand
+              built on the foundation of reliability, responsibility, and trust.
+              What began as a mission to reduce costs, optimize efficiency, and boost productivity for our own
+              ventures has grown into a commitment to deliver the same level of innovation and excellence to
+              clients across the globe.<br><br>
+              With a clear vision and a sustainable strategy, we disrupt the norms, set new standards, and put
+              our clients at the heart of everything we do. At [Your Company Name], we believe in growing
+              together—because your success is our success. We dedicate ourselves fully to delivering the
+              quality, innovation, and results you deserve.
+            </p>
           </div>
-
         </div>
 
       </div>
 
-    </section><!-- /Portfolio Details Section -->
+    </section>
+
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/about/about-2.jpg"
+              alt=""></div>
+
+          <div class="col-lg-6 mt-lg-5 ps-lg-4">
+            <div class="features-item d-flex ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-emoji-smile flex-shrink-0"></i>
+              <div>
+                <h4>Vision</h4>
+                <p>To be the most trusted global partner for seamless outsourcing and operational excellence.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3 pt-4" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-bar-chart-line flex-shrink-0"></i>
+              <div>
+                <h4>Mission</h4>
+                <p>To empower businesses by delivering reliable, timely, and tailored outsourcing solutions.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3 pt-4" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-award flex-shrink-0"></i>
+              <div>
+                <h4>Values</h4>
+                <p>We prioritize reliability, timeliness, global connectivity, client focus, and excellence in every
+                  solution we deliver.</p>
+              </div>
+            </div><!-- End Features Item-->
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section mt-5 dark-background">
+
+      <img src="assets/img/cta-bg-0.jpg" alt="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Call To Action</h3>
+              <p>Partner with us to streamline your operations and focus on what truly matters—growth and innovation.
+                From tailored outsourcing solutions to seamless IT services, we are here to help you achieve efficiency
+                and success.</p>
+              <a class="cta-btn" href="contact.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
 
   </main>
 
@@ -161,49 +267,51 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">GP</span>
+              <span class="sitename">LOGO</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+              <p>DHA Ph-2</p>
+              <p>Karachi, Pakistan</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+92 300 8976773</span></p>
               <p><strong>Email:</strong> <span>info@example.com</span></p>
             </div>
             <div class="social-links d-flex mt-4">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html"> Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="about.html"> About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="services.html"> Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="services.html"> Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="contact.html"> Contact us</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Marketing</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Graphic Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="services.html"> Technology Solutions</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="services.html"> IT Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="services.html"> E-Commerce & Retail</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="services.html"> Financial Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="services.html"> Healthcare</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-12 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-            <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <form action="#" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" placeholder="Your Email Address" name="email"><input
+                  type="submit" value="Subscribe">
+              </div>
               <div class="loading">Loading</div>
               <div class="error-message"></div>
               <div class="sent-message">Your subscription request has been sent. Thank you!</div>
@@ -216,13 +324,10 @@
 
     <div class="copyright">
       <div class="container text-center">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">LOGO</strong> <span>All Rights Reserved</span></p>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
+          Designed by <a href="#">Company</a>
         </div>
       </div>
     </div>
@@ -230,20 +335,19 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
